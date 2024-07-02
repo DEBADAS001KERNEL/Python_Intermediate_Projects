@@ -1,0 +1,58 @@
+Encryption Technique - Uppercase to Special Characters Mapping
+--------------------------------------------------------------
+
+Overview
+--------
+This encryption technique is a simple substitution cipher that maps uppercase letters to special characters. It provides a basic level of encryption suitable for obfuscating messages.
+
+How It Works
+------------
+1. **Encryption Process**:
+   - The input message should contain only uppercase letters (A-Z).
+   - Each uppercase letter is converted to a corresponding special character based on a predefined mapping.
+   - The resulting encrypted message consists of these special characters.
+
+2. **Decryption Process**:
+   - The input for decryption should be a sequence of special characters.
+   - Each special character is converted back to its corresponding uppercase letter based on the predefined mapping.
+   - The resulting decrypted message is the original uppercase letter message.
+
+Mappings
+--------
+- Uppercase Letters (A-Z): 
+  ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+  
+- Special Characters:
+  ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', ';', ':', '"', "'", '<', '>', ',', '.']
+
+Usage
+-----
+1. **Encryption**:
+   - The user enters a message containing only uppercase letters.
+   - Each letter is mapped to its corresponding special character.
+   - The encrypted message is displayed as a list of special characters.
+
+2. **Decryption**:
+   - The user enters a sequence of special characters (separated by spaces).
+   - Each special character is mapped back to its corresponding uppercase letter.
+   - The decrypted message is displayed as the original uppercase letter message.
+
+Example
+-------
+1. Encryption:
+   - Input: "HELLO"
+   - Encrypted Message: ['{', '%', '[', '[', '}']
+
+2. Decryption:
+   - Input: '{ % [ [ }'
+   - Decrypted Message: "HELLO"
+
+Note
+----
+- This technique is for educational and illustrative purposes only. It does not provide strong security and should not be used for sensitive information.
+- Ensure the input for encryption consists only of uppercase letters to avoid errors.
+- Ensure the input for decryption consists only of valid special characters from the mapping.
+
+Contact
+-------
+For any queries or feedback, please contact [Your Contact Information].
