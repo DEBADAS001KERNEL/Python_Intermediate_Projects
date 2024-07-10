@@ -1,0 +1,40 @@
+Overview
+The Restaurant Order Management System is a Python-based command-line application designed to streamline the process of taking, managing, and tracking restaurant orders. It leverages object-oriented programming (OOP) principles to provide a structured and efficient approach to order management. This project is suitable for intermediate-level Python learners who want to deepen their understanding of OOP, file handling, and basic data management techniques.
+
+Features
+Object-Oriented Design:
+
+Utilizes classes and methods to encapsulate order-related functionalities, providing a clean and modular code structure.
+Persistent Storage:
+
+Orders are stored in a JSON file, ensuring data persistence between application runs. This feature simulates a basic form of database management and introduces file I/O operations.
+CRUD Operations:
+
+Supports Create, Read, Update, and Delete (CRUD) operations for managing orders, offering comprehensive order management capabilities.
+User Interaction:
+
+Provides a command-line interface (CLI) that guides users through various operations such as placing an order, viewing all orders, updating existing orders, deleting orders, and searching for specific orders.
+Error Handling:
+
+Includes basic error handling to manage invalid inputs and ensure the program runs smoothly without crashing.
+Order Search:
+
+Implements a search function that allows users to find orders based on specific attributes like the customer’s name or mobile number.
+Usage
+Placing an Order:
+Users can input their name, mobile number, address, and order details, which are then stored in the system.
+Viewing Orders:
+Users can view all the orders that have been placed, which are displayed in a user-friendly format.
+Updating an Order:
+Users can update the details of an existing order by specifying the order number.
+Deleting an Order:
+Users can delete an existing order by specifying the order number.
+Searching for an Order:
+Users can search for orders by entering a keyword that matches either the customer’s name or mobile number.
+Future Enhancements
+User Authentication:
+Add login and registration features to secure the order management system.
+Advanced Search and Filtering:
+Implement more sophisticated search queries and filtering options.
+Database Integration:
+Transition from JSON file storage to a more robust database solution like SQLite, MySQL, or PostgreSQL for better scalability and performance.
