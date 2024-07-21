@@ -1,0 +1,24 @@
+Database Setup (create_tables):
+
+Creates an SQLite database and defines the patients table with fields for storing patient information.
+Adding Patients (add_patient):
+
+Adds new patient records into the database with provided health metrics.
+Evaluating Health (evaluate_health):
+
+Retrieves patient data from the database using the patient ID.
+Calculates the BMI and checks basic health criteria (BMI range, blood pressure, cholesterol, blood sugar).
+Prints the health status of the patient.
+Main Function (main):
+
+Provides a command-line interface for the user to add patients and evaluate their health.
+Continuously prompts the user for actions until they choose to exit.
+This script is a simple example to demonstrate how to manage patient data and evaluate health conditions. You can further enhance it by adding more sophisticated health evaluation criteria, a better user interface, and additional features such as updating or deleting patient records.
+
+
+
+
+
+
+
+
